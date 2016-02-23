@@ -1,0 +1,682 @@
+2016-01-28 17:40:11 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\practical\frontend\views\post\index.php' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\pra...', Array, Object(frontend\controllers\PostController))
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#2 C:\wamp\www\practical\frontend\controllers\PostController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\PostController->actionIndex()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post', Array)
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:40:11 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendCsrf' => 'b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po\";}'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendCsrf=b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po%22%3B%7D; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49743'
+    'REDIRECT_URL' => '/practical/post'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/post'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999211.403
+    'REQUEST_TIME' => 1453999211
+]
+2016-01-28 17:40:26 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\practical\frontend\views\post\index.php' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\pra...', Array, Object(frontend\controllers\PostController))
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#2 C:\wamp\www\practical\frontend\controllers\PostController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\PostController->actionIndex()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post', Array)
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:40:26 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendCsrf' => 'b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po\";}'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendCsrf=b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po%22%3B%7D; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49746'
+    'REDIRECT_URL' => '/practical/post'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/post'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999226.185
+    'REQUEST_TIME' => 1453999226
+]
+2016-01-28 17:42:06 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\practical\frontend\views\post\index.php' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\pra...', Array, Object(frontend\controllers\PostController))
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#2 C:\wamp\www\practical\frontend\controllers\PostController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\PostController->actionIndex()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post', Array)
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:42:06 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendCsrf' => 'b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po\";}'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendCsrf=b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po%22%3B%7D; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49793'
+    'REDIRECT_URL' => '/practical/post'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/post'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999326.578
+    'REQUEST_TIME' => 1453999326
+]
+2016-01-28 17:43:20 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\practical\frontend\views\post\index.php' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\pra...', Array, Object(frontend\controllers\PostController))
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#2 C:\wamp\www\practical\frontend\controllers\PostController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\PostController->actionIndex()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post', Array)
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:43:20 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendCsrf' => 'b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po\";}'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendCsrf=b08ed9372eb127b35357fe00a6f7684224a9c300bbe97bbf3a4c7649b5ac10dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22HNBubzqw8fxIE7EmsYptFjGQmoWzl6Po%22%3B%7D; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49823'
+    'REDIRECT_URL' => '/practical/post'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/post'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999400.589
+    'REQUEST_TIME' => 1453999400
+]
+2016-01-28 17:48:33 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\practical\frontend\views\categories\index.php' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\pra...', Array, Object(frontend\controllers\CategoriesController))
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(frontend\controllers\CategoriesController))
+#2 C:\wamp\www\practical\frontend\controllers\CategoriesController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\CategoriesController->actionIndex()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('categories', Array)
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:48:33 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+    '_frontendCsrf' => '647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16; _frontendCsrf=647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49959'
+    'REDIRECT_URL' => '/practical/categories'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/categories'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999713.2
+    'REQUEST_TIME' => 1453999713
+]
+2016-01-28 17:48:45 [::1][1][ttggj9flpb2rrdjumpq15f1d16][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "comments".' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('comments', Array)
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-28 17:48:45 [::1][1][ttggj9flpb2rrdjumpq15f1d16][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+    '_frontendCsrf' => '647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16; _frontendCsrf=647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '49971'
+    'REDIRECT_URL' => '/practical/comments'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/comments'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1453999725.139
+    'REQUEST_TIME' => 1453999725
+]
+2016-01-28 17:53:55 [::1][1][ttggj9flpb2rrdjumpq15f1d16][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "fronted".' in C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('fronted', Array)
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-28 17:53:54 [::1][1][ttggj9flpb2rrdjumpq15f1d16][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendSessionId' => 'ttggj9flpb2rrdjumpq15f1d16'
+    '_frontendCsrf' => '647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendSessionId=ttggj9flpb2rrdjumpq15f1d16; _frontendCsrf=647e72b7e1ef4f9410cb6bcdafacee812e0e12052f811047f87735578e125003a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22JWnWvtsz0RI2v628y6ROzuiUeEr6jFD7%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '50084'
+    'REDIRECT_URL' => '/practical/fronted'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/fronted'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1454000034.938
+    'REQUEST_TIME' => 1454000034
+]
+2016-02-09 15:19:09 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'Four' (T_STRING), expecting ']'' in C:\wamp\www\practical\common\models\User.php:67
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(295): ::spl_autoload_call()
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(631): yii\web\User->loginByCookie()
+#2 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#3 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIsGuest()
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(42): yii\base\Component->__get()
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#9 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#10 C:\wamp\www\practical\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#11 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#12 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#13 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#14 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#15 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#16 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#17 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-02-09 15:19:08 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendUser' => '5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendUser=5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '54096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1455027548.817
+    'REQUEST_TIME' => 1455027548
+]
+2016-02-09 15:19:09 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'Four' (T_STRING), expecting ']'' in C:\wamp\www\practical\common\models\User.php:67
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(295): ::spl_autoload_call()
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(631): yii\web\User->loginByCookie()
+#2 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#3 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIsGuest()
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(42): yii\base\Component->__get()
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#9 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#10 C:\wamp\www\practical\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#11 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#12 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#13 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#14 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#15 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#16 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#17 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-02-09 15:19:08 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendUser' => '5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendUser=5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '54092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1455027547.823
+    'REQUEST_TIME' => 1455027547
+]
+2016-02-09 15:19:35 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'Four' (T_STRING), expecting ']'' in C:\wamp\www\practical\common\models\User.php:67
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(295): ::spl_autoload_call()
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(631): yii\web\User->loginByCookie()
+#2 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#3 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIsGuest()
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(42): yii\base\Component->__get()
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#9 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#10 C:\wamp\www\practical\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#11 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#12 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#13 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#14 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#15 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#16 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#17 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-02-09 15:19:35 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendUser' => '5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h\",2592000]\";}'
+    '_frontendCsrf' => '7761f84efaac40289259b29fb77c197f7b9227c639ceea2d954f4a80d4314528a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"Y_98_7MFkZCjGXF66RSLg-UG6MJ4xDT3\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendUser=5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h%22%2C2592000%5D%22%3B%7D; _frontendCsrf=7761f84efaac40289259b29fb77c197f7b9227c639ceea2d954f4a80d4314528a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22Y_98_7MFkZCjGXF66RSLg-UG6MJ4xDT3%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '54109'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1455027575.47
+    'REQUEST_TIME' => 1455027575
+]
+2016-02-09 15:20:45 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'Four' (T_STRING), expecting ']'' in C:\wamp\www\practical\common\models\User.php:67
+Stack trace:
+#0 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(295): ::spl_autoload_call()
+#1 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(631): yii\web\User->loginByCookie()
+#2 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#3 C:\wamp\www\practical\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#4 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIsGuest()
+#5 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(42): yii\base\Component->__get()
+#6 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#7 C:\wamp\www\practical\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#8 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#9 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#10 C:\wamp\www\practical\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#11 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#12 C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\practical\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#13 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#14 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#15 C:\wamp\www\practical\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#16 C:\wamp\www\practical\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#17 C:\wamp\www\practical\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-02-09 15:20:45 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1728567950.1450365206'
+    '_frontendUser' => '5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h\",2592000]\";}'
+    '_frontendCsrf' => '7761f84efaac40289259b29fb77c197f7b9227c639ceea2d954f4a80d4314528a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"Y_98_7MFkZCjGXF66RSLg-UG6MJ4xDT3\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1728567950.1450365206; _frontendUser=5d08c69163a2e1e80d58f8eaa61504693d68985d7991ca169e5f489dfed42be5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ROoSQ7fmDm6BPZ3MlASiVT5EcZhMaw1h%22%2C2592000%5D%22%3B%7D; _frontendCsrf=7761f84efaac40289259b29fb77c197f7b9227c639ceea2d954f4a80d4314528a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22Y_98_7MFkZCjGXF66RSLg-UG6MJ4xDT3%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2014b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2014b\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/practical/index.php'
+    'REMOTE_PORT' => '54128'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/practical/'
+    'SCRIPT_NAME' => '/practical/index.php'
+    'PHP_SELF' => '/practical/index.php'
+    'REQUEST_TIME_FLOAT' => 1455027645.02
+    'REQUEST_TIME' => 1455027645
+]
